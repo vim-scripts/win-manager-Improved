@@ -12,14 +12,8 @@ modify, if he has confidence.
 Installation:
 ------------
 
-Place file    addToWinManager.vim in your home directory
-	      winmanager.vim in your plugin directory
-	      winmanager.doc in your doc directory (done 
+Place file    addToWinManager.vim in your plugin directory(done 
 	      automatically if you unzip the files in your $VIMRUNTIME directory).
-
-Add following line to your .vimrc (or whatever is your startup file)
-
-so $HOME/addToWinManager.vim
 
 and you are through with it. Just start your gvim/vim
 
@@ -31,10 +25,10 @@ Usage:
    :WMClose	to close it
    :WMtoggle	to toggle between visible and hidden modes of winmanager.
 
- Testing:
- --------
- 	I'm using these scripts from about a month now and feel
-	they work good enough to be released.
+ Tips:
+ ----
+    To create a sub-menu just give a dot in nic-name of the shortcut. Eg: for Doc.html will create a submenu Doc in Dir-shortcuts, and later if you add Doc.Tex will create another entry in Tex in Doc submenu. 
+
 
  Thanks :
  -------
