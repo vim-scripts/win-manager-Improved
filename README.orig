@@ -1,0 +1,46 @@
+README
+------
+  This plugin will help user in quick traversal between various 
+directories in a project, across the filesystems. This allows user to
+create shortcuts to directories. All shortcuts created by user are
+persistent across sessions and are available through the menu. Users
+who don't have a graphical interface can access menu through wild 
+menu options.
+   All shortcuts created are stored in a text file which user can 
+modify, if he has confidence. 
+
+Installation:
+------------
+
+Place file    addToWinManager.vim in your home directory
+	      winmanager.vim in your plugin directory
+	      winmanager.doc in your doc directory (done 
+	      automatically if you unzip the files in your $VIMRUNTIME directory).
+
+Add following line to your .vimrc (or whatever is your startup file)
+
+so $HOME/addToWinManager.vim
+
+and you are through with it. Just start your gvim/vim
+
+Usage:
+------
+   Use Dir-shortcut menu to add shortcuts and traverse to them.
+   All commands of winmanager can be used as earlier. A summary of what might be needed by you follows:
+   :WManager	to start Windows manager
+   :WMClose	to close it
+   :WMtoggle	to toggle between visible and hidden modes of winmanager.
+
+ Testing:
+ --------
+ 	I'm using these scripts from about a month now and feel
+	they work good enough to be released.
+
+ Thanks :
+ -------
+    Srinath for the wonderful script he has written.
+    To the vim-community, who encourage people even like me to contribute to make vim the best editor. 
+    To my team mates for valuable support and suggestions I get from them.
+
+
+Anubhav
